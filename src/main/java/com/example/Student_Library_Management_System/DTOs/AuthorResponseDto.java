@@ -5,7 +5,7 @@ import java.util.List;
 public class AuthorResponseDto {
 
     private String name;
-    private String age;
+    private int age;
     private String country;
     private double rating;
 
@@ -23,11 +23,11 @@ public class AuthorResponseDto {
         this.name = name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
